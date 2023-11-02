@@ -1,0 +1,91 @@
+/* Style général de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Texte en noir */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 600px;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #4CAF50; /* Vert */
+    color: #0a0a0a;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Style de la section principale */
+main {
+    width: 80%;
+    padding: 20px;
+}
+
+/* Style des titres */
+h2 {
+    color: #000000; /* Vert */
+    font-size: 24px;
+}
+
+/* Style des articles */
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style des listes d'images (compétences) */
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #4CAF50; /* Vert */
+    color: #080808;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style des liens dans le pied de page */
+footer a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+/* Style pour le lien de téléchargement */
+a[download] {
+    background-color: #4CAF50; /* Vert */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #0e0d0d;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+a[download]:hover {
+    background-color: #45A049; /* Vert légèrement plus foncé au survol */
+}
+
